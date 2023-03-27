@@ -749,16 +749,16 @@ async def auto_filter(client, msg, spoll=False):
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
-            hmm = await message.reply_photo(photo="https://te.legra.ph/file/4bde81bfc6ab8bc34cdba.jpg", caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
+            hmm = await message.reply_photo(photo="https://graph.org/file/75114d8a3b783980e2b1a.jpg", caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(40)
             await hmm.delete()
         except Exception as e:
             logger.exception(e)
-            fek = await message.reply_photo(photo="https://te.legra.ph/file/4bde81bfc6ab8bc34cdba.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+            fek = await message.reply_photo(photo="https://graph.org/file/75114d8a3b783980e2b1a.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(40)
             await fek.delete()
     else:
-        fuk = await message.reply_photo(photo="https://te.legra.ph/file/4bde81bfc6ab8bc34cdba.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
+        fuk = await message.reply_photo(photo="https://graph.org/file/75114d8a3b783980e2b1a.jpg", caption=cap, reply_markup=InlineKeyboardMarkup(btn))
         await asyncio.sleep(40)
         await fuk.delete()
     if spoll:
