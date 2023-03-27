@@ -741,7 +741,9 @@ async def auto_filter(client, msg, spoll=False):
     else:
         cap = f"𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐌𝐎𝐕𝐈𝐄 ➢ {search} 
                 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐓𝐘𝐏𝐄 ➢ movies are webseries 
-                𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐏𝐄𝐑𝐒𝐎𝐍 ➢ {message.from_user.mention}"
+                𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐏𝐄𝐑𝐒𝐎𝐍 ➢ {message.from_user.mention}
+                
+                ©️ @jnaneshgowdatn"
         
     if imdb and imdb.get('poster'):
         try:
