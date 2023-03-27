@@ -739,7 +739,8 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"💎 {message.from_user.mention} 𝗨𝗿 𝗿𝗲𝗾𝘂𝗲𝘀𝘁𝗲𝗱 𝗺𝗼𝘃𝗶𝗲 '{search}'" 
+        cap = f"𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐌𝐎𝐕𝐈𝐄 ➢ {search}/n𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐓𝐘𝐏𝐄 ➢ movies are webseries/n𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐏𝐄𝐑𝐒𝐎𝐍 ➢ {message.from_user.mention}"
+        
     if imdb and imdb.get('poster'):
         try:
           hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],reply_markup=InlineKeyboardMarkup(btn))                
