@@ -752,7 +752,7 @@ async def auto_filter(client, msg, spoll=False):
           await hehe.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
-            poster = pic.replace('.jpg', "._V1_UX360.jpg")
+            poster = pic.replace('.jpg', "._V1_UX260.jpg")
             hmm = await message.reply_photo(photo="https://graph.org/file/75114d8a3b783980e2b1a.jpg", caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(40)
             await hmm.delete()
