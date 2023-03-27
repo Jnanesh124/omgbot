@@ -108,7 +108,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="💎 𝐇𝐨𝐰 𝐭𝐨 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝 💎", url='https://t.me/+Rf7HPykmLC5hOWQ9')
+            InlineKeyboardButton(text="💎 𝐇𝐨𝐰 𝐭𝐨 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝 💎", url='https://t.me/+Rf7HPykmLC5hOWQ9'),
             InlineKeyboardButton(text="🥵 adult channel 🥵", url='https://t.me/+LC3GZ8HoeM0zMmZl'),
             InlineKeyboardButton(text="📢 𝐖𝐄𝐁-𝐒𝐄𝐑𝐈𝐄𝐒 📢", url='https://telegram.me/WEBSERIES_JN')
         ]
@@ -690,7 +690,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="💎 𝐇𝐨𝐰 𝐭𝐨 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝 💎", url='https://t.me/+Rf7HPykmLC5hOWQ9')
+            InlineKeyboardButton(text="💎 𝐇𝐨𝐰 𝐭𝐨 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝 💎", url='https://t.me/+Rf7HPykmLC5hOWQ9'),
             InlineKeyboardButton(text="🥵 adult channel 🥵", url='https://t.me/+LC3GZ8HoeM0zMmZl'),
             InlineKeyboardButton(text="📢 𝐖𝐄𝐁-𝐒𝐄𝐑𝐈𝐄𝐒 📢", url='https://telegram.me/WEBSERIES_JN')
         ]
